@@ -26,9 +26,11 @@ public class SecurityConfigurations {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
-        http.authorizeRequests()
+        http.authorizeRequests() //
                 .antMatchers(HttpMethod.GET, "/turmas").permitAll()
-                .antMatchers(HttpMethod.GET, "/turmas/*").permitAll();
+                .antMatchers(HttpMethod.GET, "/turmas/*").permitAll()
+                .anyRequest().authenticated()
+                .and().formLogin();
 
         return http.build();
 
