@@ -1,5 +1,5 @@
 
-insert into USUARIO (ID, EMAIL, NOME, SENHA) values (1, 'professor@email.com', 'Fulano', '123456')
+insert into USUARIO (ID, EMAIL, NOME, SENHA) values (1, 'professor@gmail.com', 'Fulano', '$2a$10$ExLasdrCVLHlbhZsrPKpF.ScrHiesccD1bPK2mbNa/Qw.wDfB8ga6')
 
 insert into TURMA (ID, DATA_CRIACAO, NIVEL, TITULO, USUARIO_ID) values (1, '2015-01-10', 'Primeiro Ano - Ensino Médio', 'Sala 1', 1)
 insert into TURMA (ID, DATA_CRIACAO, NIVEL, TITULO, USUARIO_ID) values (2, '2016-02-20', 'Segundo Ano - Ensino Médio', 'Sala 2', 1)
