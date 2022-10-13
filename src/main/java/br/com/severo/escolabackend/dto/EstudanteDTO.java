@@ -1,7 +1,7 @@
-package br.com.severo.escolabackend.escolabackend.dto;
+package br.com.severo.escolabackend.dto;
 
-import br.com.severo.escolabackend.escolabackend.models.Estudante;
-import br.com.severo.escolabackend.escolabackend.models.StatusMatricula;
+import br.com.severo.escolabackend.models.Estudante;
+import br.com.severo.escolabackend.models.StatusMatricula;
 import lombok.Data;
 
 import java.time.LocalDate;

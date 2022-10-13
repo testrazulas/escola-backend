@@ -1,7 +1,7 @@
-package br.com.severo.escolabackend.escolabackend.config;
+package br.com.severo.escolabackend.config;
 
-import br.com.severo.escolabackend.escolabackend.repositories.UsuarioRepository;
-import br.com.severo.escolabackend.escolabackend.services.AutenticacaoService;
+import br.com.severo.escolabackend.repositories.UsuarioRepository;
+import br.com.severo.escolabackend.services.AutenticacaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package br.com.severo.escolabackend.escolabackend.models;
+package br.com.severo.escolabackend.models;
 
 public enum StatusMatricula {
 

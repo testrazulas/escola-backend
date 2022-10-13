@@ -1,7 +1,7 @@
-package br.com.severo.escolabackend.escolabackend.dto;
+package br.com.severo.escolabackend.dto;
 
-import br.com.severo.escolabackend.escolabackend.models.Turma;
-import br.com.severo.escolabackend.escolabackend.repositories.TurmaRepository;
+import br.com.severo.escolabackend.models.Turma;
+import br.com.severo.escolabackend.repositories.TurmaRepository;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.domain.Page;
@@ -10,8 +10,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 import java.time.LocalDate;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Data
 @NoArgsConstructor

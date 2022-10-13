@@ -1,6 +1,5 @@
-package br.com.severo.escolabackend.escolabackend.models;
+package br.com.severo.escolabackend.models;
 
-import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

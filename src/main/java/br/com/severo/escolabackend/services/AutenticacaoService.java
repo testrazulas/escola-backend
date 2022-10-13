@@ -1,7 +1,7 @@
-package br.com.severo.escolabackend.escolabackend.services;
+package br.com.severo.escolabackend.services;
 
-import br.com.severo.escolabackend.escolabackend.models.Usuario;
-import br.com.severo.escolabackend.escolabackend.repositories.UsuarioRepository;
+import br.com.severo.escolabackend.models.Usuario;
+import br.com.severo.escolabackend.repositories.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

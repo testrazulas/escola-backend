@@ -1,4 +1,4 @@
-package br.com.severo.escolabackend.escolabackend.config.validacao;
+package br.com.severo.escolabackend.config.validacao;
 
 public class ErroDeCadastroDto {
 	

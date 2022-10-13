@@ -1,4 +1,4 @@
-package br.com.severo.escolabackend.escolabackend.config.validacao;
+package br.com.severo.escolabackend.config.validacao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;

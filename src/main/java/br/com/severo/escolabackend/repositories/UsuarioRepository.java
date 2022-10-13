@@ -1,6 +1,6 @@
-package br.com.severo.escolabackend.escolabackend.repositories;
+package br.com.severo.escolabackend.repositories;
 
-import br.com.severo.escolabackend.escolabackend.models.Usuario;
+import br.com.severo.escolabackend.models.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

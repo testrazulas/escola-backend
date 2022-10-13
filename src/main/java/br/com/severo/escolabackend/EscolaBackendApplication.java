@@ -1,4 +1,4 @@
-package br.com.severo.escolabackend.escolabackend;
+package br.com.severo.escolabackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

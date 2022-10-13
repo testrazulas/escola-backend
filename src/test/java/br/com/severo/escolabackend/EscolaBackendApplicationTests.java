@@ -1,4 +1,4 @@
-package br.com.severo.escolabackend.escolabackend;
+package br.com.severo.escolabackend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
