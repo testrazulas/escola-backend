@@ -1,4 +1,4 @@
-package br.com.severo.escolabackend.config;
+package br.com.severo.escolabackend.config.security;
 
 import br.com.severo.escolabackend.repositories.UsuarioRepository;
 import br.com.severo.escolabackend.services.AutenticacaoService;
