@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.transaction.Transactional;
 import javax.validation.Valid;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -42,11 +43,17 @@ public class TurmasController {
 
     }
 
-    @PostMapping
-    public ResponseEntity<TurmaDTO> cadastrarTurma(@RequestBody @Valid TurmaDTO turmaDTO){
-        turmaService.cadastrar(turmaDTO);
+//    @PostMapping
+//    public ResponseEntity<TurmaDTO> cadastrarTurma(@RequestBody @Valid TurmaDTO turmaDTO){
+//        turmaService.cadastrar(turmaDTO);
+//
+//        return ResponseEntity.status(HttpStatus.CREATED).body(turmaDTO);
+//    }
 
-        return ResponseEntity.status(HttpStatus.CREATED).body(turmaDTO);
+    @PostMapping
+    public ResponseEntity<Object> salvarListaDeTurmas(@RequestBody @Valid List<TurmaDTO> dtolist){
+        dtolist.forEach(turmaDTO -> turmaService.cadastrar(turmaDTO));
+        return ResponseEntity.status(HttpStatus.CREATED).body(dtolist);
     }
 
    /* @GetMapping("/{id}")
